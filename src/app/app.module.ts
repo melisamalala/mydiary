@@ -8,12 +8,14 @@ import { AppComponent } from './app.component';
 // import { WritedetailsComponent } from './writedetails/writedetails.component';
 import { DiaryFormComponent } from './diary-form/diary-form.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
     // WriteinformComponent,
     // WritedetailsComponent,
-    DiaryFormComponent
+    DiaryFormComponent,
+
   ],
   imports: [
     BrowserModule,

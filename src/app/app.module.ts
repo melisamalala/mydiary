@@ -14,7 +14,7 @@ import { DiaryFormComponent } from './diary-form/diary-form.component';
     AppComponent,
     // WriteinformComponent,
     // WritedetailsComponent,
-    DiaryFormComponent,
+    DiaryFormComponent
 
   ],
   imports: [

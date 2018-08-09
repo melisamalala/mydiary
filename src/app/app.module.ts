@@ -16,8 +16,8 @@ import { DiaryFormComponent } from './diary-form/diary-form.component';
     DiaryFormComponent
   ],
   imports: [
-    BrowserModule
-    FormsModule,
+    BrowserModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

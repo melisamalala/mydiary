@@ -5,11 +5,8 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './diary-form.component.html',
   styleUrls: ['./diary-form.component.css']
 })
-export class DiaryFormComponent implements OnInit {
+export class DiaryFormComponent {
 
-  constructor() { }
-
-  ngOnInit() {
-  }
+log(x) {console.log(x); }
 
 }

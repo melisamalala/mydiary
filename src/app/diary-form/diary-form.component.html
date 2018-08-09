@@ -1,10 +1,20 @@
-<form class="" action="index.html" method="post">
+<form>
   <div class="form-group">
-    <label for="firstName">First Name</label><input id="firstName" type="text" class="form-control">
+    <label for="firstName">First Name</label>
+    <input required ngModel name="firstName" #firstName="ngModel" (change)="log(firstName)" id="firstName" type="text" class="form-control">
+    <div class="alert alert-danger" *ngIf="!firstName.valid">First Name is required!</div>
+
+
+    <label for="diarytitle">Title Of Diary</label><input id="diarytitle" type="text" class="form-control">
+
+    <label for="datetoday">Today's Date</label><input id="datetoday" type="text" class="form-control">
+
   </div>
+
+
   <div class="form-group">
-    <label for="comment">Comment</label>
-    <textarea id="comment" cols="30" rows="10" class="form-control">
+    <label for="comment">Diary Entry</label>
+    <textarea ngModel name="comment" id="comment" cols="30" rows="10" class="form-control">
     </textarea>
   </div>
   <button class="btn btn-primary">Submit</button>

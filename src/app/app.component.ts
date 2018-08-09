@@ -8,4 +8,4 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'Diary';
   write = 'Post Your Thoughts';
-} 
+}

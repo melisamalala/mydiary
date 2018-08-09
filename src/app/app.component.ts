@@ -6,6 +6,6 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html'
 })
 export class AppComponent {
-  title = 'Diary'
-  write = 'Post Your Thoughts'    
-}
+  title = 'Diary';
+  write = 'Post Your Thoughts';
+} 

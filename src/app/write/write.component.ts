@@ -6,7 +6,6 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./write.component.css']
 })
 export class WriteComponent implements OnInit {
-
   constructor() { }
 
   ngOnInit() {
